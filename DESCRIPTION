@@ -1,0 +1,24 @@
+Package: uncoregt
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0.9000
+Author: Frederik Aust & Philine Thomasius
+Maintainer: Frederik Aust <frederik.aust@uni-koeln.de>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(
+  person("Frederik", "Aust", email = "frederik.aust@uni-koeln.de", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4900-788X")),
+  person("Philine", "Thomasius", role = "aut", comment = c(ORCID = "0000-0002-4910-8683"))
+  )
+URL: https://github.com/crsh/uncoregt
+BugReports: https://github.com/crsh/uncoregt/issues
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Language: en-US
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
